@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Level3Ejercicio4 {
-    public static void main (String args[]) {
+    public static void main (String[] args) {
         List<Integer> palabras = List.of(1, 2, 4, 4, 4);
         List<Integer> otraLista = palabras.stream()
                 .map(p -> Level3Ejercicio4.factorial(p))
